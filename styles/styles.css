@@ -30,10 +30,10 @@ p {
 }
 
 aside {
-    width: 25rem;
-    margin: 1.5rem 0;
+    width: 25em;
+    margin: 1.5em 0;
     border: 1px solid rgb(0 0 0 / 10%);
-    padding: 1rem;
+    padding: 1em;
     background-color: #F7F1E5;
     color: black;
 }
@@ -44,7 +44,7 @@ aside img {
 }
 
 footer {
-    margin-top: 1.5rem;
+    margin-top: 1.5em;
     border-top: 1px solid black;
     text-align: center
 }
