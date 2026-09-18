@@ -1,10 +1,21 @@
 :root {
-    --image-shadow: 0 0 30px gray;
-    --page-common-color: darkblue;
+    --shadow: 0 0 30px gray;
+    --main-color: darkblue;
 } /* Experimented with variables for W03 learning activity. */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    font-family: Roboto, Arial, sans-serif;
+}
+
 nav {
-    background-color: var(--page-common-color);
+    background-color: var(--main-color);
     padding: 10px;
 }
 
@@ -19,7 +30,7 @@ main {
 }
 
 h1 {
-    color: var(--page-common-color);
+    color: var(--main-color);
 }
 
 main img {
@@ -27,30 +38,49 @@ main img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: var(--image-shadow);
+    box-shadow: var(--shadow);
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 p {
+    margin: 1rem;
     padding: 0;
 }
 
 aside {
-    width: 20rem;
-    margin: 1.5rem 0;
-    border: 1px solid rgb(0 0 0 / 10%);
-    padding: 1em;
-    background-color: #F7F1E5;
-    color: black;
+    width: 20em;
+    text-align: center;
+    position: relative;
 }
 
 aside img {
     width: 200px;
     height: auto;
-    box-shadow: var(--image-shadow)
+}
+
+aside h2 {
+    position: absolute;
+    top: 25px;
+    left: 75px;
+    font-size: 1.2rem;
 }
 
 footer {
     margin-top: 1.5rem;
     border-top: 1px solid black;
-    text-align: center
+    text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #F7F1E5;
+    color: #000;
+}
+
+.indent {
+    padding-left: 2rem;
 }
