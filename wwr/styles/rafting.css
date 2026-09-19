@@ -1,8 +1,7 @@
 :root {
     --primary-color: #BC6C25;
     --secondary-color: #535353;
-    --accent1-color: #DDA15E;
-    --accent2-color: #9E2A2B;
+    --accent-color: #DDA15E;
     --background-color: #FBF7F0;
     --surface-color: #F3E9DC;
     --heading-font: "Times New Roman", Georgia, serif;
@@ -17,7 +16,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--accent-color);
 }
 
 header, main, footer {
@@ -64,7 +63,7 @@ nav, p, section, article {
     position: absolute;
     bottom: 0;
     text-align: left;
-    background-color: var(--background-color);
+    background-color: var(--surface-color);
     color: #000;
 }
 
