@@ -41,14 +41,6 @@ h1 {
     color: #000;
 }
 
-article {
-    position: absolute;
-    bottom: 0;
-    text-align: left;
-    background-color: var(--background-color);
-    color: #000;
-}
-
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
@@ -66,6 +58,14 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    background-color: var(--background-color);
+    color: #000;
 }
 
 .hero article img {
