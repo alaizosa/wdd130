@@ -49,7 +49,7 @@ main {
 
 h1 {
     color: var(--main-color);
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid var(--main-color);
     margin: 1rem;
 }
 
