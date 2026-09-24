@@ -51,6 +51,7 @@ h1 {
     color: var(--main-color);
     border-bottom: 1px solid var(--main-color);
     margin: 1rem;
+    text-align: center;
 }
 
 main img {
