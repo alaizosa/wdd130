@@ -31,7 +31,7 @@ header {
     margin: 2rem auto 1rem auto;
     align-items: center;
     justify-content: space-evenly;
-    background-color: var(--surface-color);
+    background-color: var(--primary-color);
 }
 
 header img {
