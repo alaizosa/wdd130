@@ -27,7 +27,7 @@ header, main, footer {
 header {
     display: grid;
     grid-template-columns: 250px repeat(4, auto);
-    border: 1px solid #000;
+    border: 1px solid rgb(0 0 0 / 20%);
     margin: 2rem auto 1rem auto;
     align-items: center;
     justify-content: space-evenly;
