@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #e7a164cc;
+    --primary-color: #D4CDC3;
     --secondary-color: #535353;
     --accent-color: #624e38;
     --background-color: #FBF7F0;
@@ -66,7 +66,7 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.5;
+    opacity: 0.7;
     background-color: var(--background-color);
     color: #000;
 }
@@ -90,10 +90,13 @@ footer p {
     grid-row: 1;
     text-align: center;
     font-size: 16px;
+    color: #000;
 }
 
 footer img {
+    display: flex;
     width: 50px;
+    align-items: center;
 }
 
 nav .firstborder {
@@ -182,4 +185,5 @@ nav .firstborder {
 .secondsection figcaption {
     text-align: center;
     margin-bottom: 2rem;
+    color: #000;
 }
