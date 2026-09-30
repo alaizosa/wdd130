@@ -57,7 +57,7 @@ header nav a {
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--accent-color);
-    border: 10px solid #000;
+    border: 10px 0 solid #000;
 }
 
 h1 {
