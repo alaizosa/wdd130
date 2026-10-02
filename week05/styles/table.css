@@ -1,0 +1,27 @@
+table {
+    border-collapse: collapse;
+    border: 3px solid #8C8C8C;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+th, td {
+    border: 1px solid #969696;
+    padding: 8px 10px;
+    text-align: center;
+}
+
+thead th, tfoot tr {
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+}
+
+.altcolor {
+    background-color: #f2f2f2;
+}
+
+.subtitle {
+    font-weight: 700;
+}
